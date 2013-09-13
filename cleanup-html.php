@@ -14,12 +14,6 @@ Author URI: http://www.closemarketing.es
  * 	Add TinyMCE buttons (WP 2.5+)
  */
 
-function customgibam_init() {
-	load_plugin_textdomain( 'clhtml', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
-	}
-	//Load Translation
-add_action('plugins_loaded', 'customgibam_init');
-
 add_action('init', 'cleanup_html_addbuttons');
 
 function cleanup_html_addbuttons() {
