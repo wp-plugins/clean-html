@@ -55,7 +55,7 @@ function cleanup_html_admin_scripts() {
 	wp_enqueue_script('cleanup_html_admin_scripts');
 }
 if (is_admin()) {
-	add_action('init', cleanup_html_admin_scripts);
+	add_action('init', 'cleanup_html_admin_scripts');
 }
 
 
