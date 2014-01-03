@@ -8,7 +8,7 @@ var win = window.dialogArguments || opener || parent || top;
 
 function cleanHTML() {
 
-	var answer = confirm("Really remove all div and span HTML?");
+	var answer = confirm("Really remove div, span, table and col HTML?");
 
 	if (answer) {
 		tinyMCE.activeEditor.dom.remove(tinyMCE.activeEditor.dom.select('div'), true);
@@ -17,6 +17,7 @@ function cleanHTML() {
 		tinyMCE.activeEditor.dom.remove(tinyMCE.activeEditor.dom.select('tbody'), true);
 		tinyMCE.activeEditor.dom.remove(tinyMCE.activeEditor.dom.select('tr'), true);
 		tinyMCE.activeEditor.dom.remove(tinyMCE.activeEditor.dom.select('td'), true);
+		tinyMCE.activeEditor.dom.remove(tinyMCE.activeEditor.dom.select('col'), true);
 	}
 
 }
