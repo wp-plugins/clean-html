@@ -3,12 +3,16 @@
 Plugin Name: Cleanup HTML
 Plugin URI: http://wordpress.org/plugins/clean-html
 Description: Adds a button to the visual editor which allows you to clean up HTML.
-Version: 1.0
+Version: 1.1
 Author: Closemarketing
 Author URI: http://www.closemarketing.es
 */
 
-
+function customclmkg_init() {
+	load_plugin_textdomain( 'clmkg', false, dirname( plugin_basename( __FILE__ ) ) . '/lang' );
+	}
+	//Load Translation
+add_action('plugins_loaded', 'customclmkg_init');
 
 /**
  * 	Add TinyMCE buttons (WP 2.5+)

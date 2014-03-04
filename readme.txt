@@ -1,9 +1,9 @@
 === Cleanup HTML ===
-Contributors: closemarketing, Joen
+Contributors: closemarketing
 Tags: wysiwyg, tinymce, clean html, html
 Requires at least: 2.6
 Tested up to: 3.1.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 == Description ==
 
@@ -21,4 +21,5 @@ Adds a button to your visual toolbar that when clicked strips all `div`, 'table'
 
 == Changelog ==
 
+* 1.1 Added Spanish language.
 * 1.0: First release
