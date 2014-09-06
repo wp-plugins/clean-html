@@ -2,7 +2,7 @@
 Contributors: closemarketing
 Tags: wysiwyg, tinymce, clean html, html
 Requires at least: 2.6
-Tested up to: 3.1.2
+Tested up to: 4.0
 Stable tag: 1.1
 
 == Description ==
